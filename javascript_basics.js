@@ -23,8 +23,8 @@ const things = ["porsche", 21, true, null];
 console.log(things);
 
 const person = {
-  name: "Tariro",
-  surname: "Thole",
+  name: "Takudzwa",
+  surname: "Kanokanga",
   age: 30,
   location: "Harare",
   gender: "female",
@@ -53,4 +53,32 @@ colors.map((b) => {
     console.log(b);
 });
 
+let student = {
+    name: "Takudzwa",
+    surname: "Kanokanga",
+    age: 30,
+    gender: "Male",
+    location: "Harare",
+}
 
+console.log(student.name);
+console.log(student.surname);
+console.log(student.age);   
+console.log(student.gender);
+console.log(student.location);
+student["name"]
+console.log(student["name"]);
+student.age = 31;
+console.log(student);
+
+student.surname = "Thole";
+console.log(student);
+student.location = "Bulawayo";
+console.log(student);
+student.gender = "Any";
+console.log(student);
+
+student.hobbies = ["reading", "traveling", "cooking"];
+console.log(student.hobbies);
+student.hobbies.push("gaming");
+console.log(student.hobbies);
